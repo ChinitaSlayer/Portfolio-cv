@@ -32,12 +32,6 @@ header{
 	
 }
 
-
-
-.logo{
-float: left;
-}
-
 nav{
 	float: right;
 	font-family: 'Montserrat', sans-serif;
@@ -56,7 +50,6 @@ nav li{
 }
  nav a{
  	color: white;
- 	text-decoration: none;
  	text-transform: uppercase;
  	font-size: 14px;
  }
@@ -172,3 +165,16 @@ p a{
 	color: white;
 }
 
+
+a:link{
+  text-decoration: none!important;
+}
+
+#bot{
+	font-weight: 900;
+
+}
+
+li {
+	list-style: none;
+}
